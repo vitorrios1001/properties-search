@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Properties Search 🏠🔍
 
-## Getting Started
+Welcome to Properties Search! This is a property search project that utilizes the Repliers.io API to search for properties based on provided locations (latitude and longitude). The location autocomplete is powered by the @mapbox/search-js-react library. The project is built with ReactJS, Next.js, and utilizes other technologies such as TypeScript, Tailwind CSS, react-responsive-carousel, and @iconify/react.
 
-First, run the development server:
+### Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Properties Search is a web application that allows users to search for properties based on geographical locations. The combination of the Repliers.io API with the Mapbox autocomplete makes property searching more intuitive and efficient.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Before running the project locally, make sure to have the following environment variables configured in a `.env` file at the root of the project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `NEXT_PUBLIC_MB_ACCESS_TOKEN`: Mapbox access token for authentication.
+- `NEXT_PUBLIC_REPLIERS_API_KEY`: Repliers.io API key for authentication.
 
-## Learn More
+### Running Locally 🏃‍♂️
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository: `git clone https://github.com/vitorrios1001/properties-search.git`
+2. Install dependencies using [PNPM](https://pnpm.io/): `pnpm install`
+3. Start the development server: `pnpm run dev`
+4. Open your browser and navigate to `http://localhost:3000` to see the project in action.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Online Access 🌐
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Properties Search is also available online through the Vercel platform. You can access the application at [https://properties-search.vercel.app/](https://properties-search.vercel.app/).
 
-## Deploy on Vercel
+### Contribution 🤝
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/vitorrios1001/properties-search).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### License 📜
+
+This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for more details.
+
+---
+
+Developed by [Vitor Rios](https://github.com/vitorrios1001)
